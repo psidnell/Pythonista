@@ -7,10 +7,13 @@ so for example you can export a map pin to a WorkFlow extension and have it laun
 Pythonista script with the pin data as an argument. Pythonista then processes that and can launch
 other apps in turn.
 
-Useful links:
+## Useful links:
+
+All this was developed entirely on an iPad, including managing this git repository with:
 
 - [Pythonista](http://omz-software.com/pythonista/) - a full iOS Python dev environment.
-- [WorkFlow](https://workflow.is) - an iOS automation utility.
+- [Launch Center Pro](http://contrast.co/launch-center-pro/) - A useful launcher for Pythonista scripts.
+- [WorkFlow](https://workflow.is) - an iOS automation utility. Another launcher but also much more.
 - [Working Copy](http://workingcopyapp.com) - an iOS git/GitHub client.
 - [Pythonista URL schemes](http://omz-software.com/pythonista/docs/ios/urlscheme.html).
 - [WorkFlow URL Schemes](https://workflow.is/developer).
