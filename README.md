@@ -34,11 +34,13 @@ Note that one exception is Here2OF.py which stores the current location as a nic
 
 ## WorkFlow for Importing Python scripts from DropBox
 
-This WorkFlow lets the user choose a script from DropBox, stores the file content on the clipboard then opens the Pythonista script with the filename as an argument.
+Apparently Apple objected to Pythonista's OpenIn... extension so it's gone and we're left messing about with copy and paste to move our scripts about. Pythonista still has the ability to export to DropBox, so this workflow provides the missing DropBox import.
+
+The WorkFlow part lets the user choose a Pythonista script from DropBox, stores the file content on the clipboard then opens the Pythonista import script with the filename as an argument.
 
 ![](DropboxToPythonista.png)
 
-Import.py uses the passed filename and clipboard to save the file in Pythonista.
+Import.py uses the passed filename and clipboard contents to save the file in Pythonista as a script.
 
 As a safety measure it puts "IMPORTED_" on the front of the saved file so you don't accidentally overwrite anything important. It could check for the existence of the file first and just append a numeric suffix if it it already exists. Maybe later...
 
