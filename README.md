@@ -17,15 +17,17 @@ Useful links:
 
 ## Sending Apple Maps pins to Google, TomTom, Waze, OpenStreetmap, Omnifocus
 
+In iOS9 Apple changed the Maps export format to a URL and "broke" my location based workflows. I've recreated them here with the help of Pythonista which is a big improvement on the pure WorkFlow scripts I used to have which were getting unwieldy.
+
 These scripts require a WorkFlow Action Extension to forward the url exported by Apple Maps, here is an example of one:
 
 ![](LocationToOmnifocus_1.png)
 
 ![](LocationToOmnifocus_2.png)
 
-The specific scripts (named LocationTo...) then process the link and open the required app on the location.
+The specific python scripts (named LocationTo...) then process the link and open the required app on the location.
 
-Note that one exception is Here2OF.py which stores the current location as an OmniFocus note. This requires no input since it uses the current location. Thus it can be launched directly without the need for any argument. 
+Note that one exception is Here2OF.py which stores the current location as a nicely formatted OmniFocus note with title, address and links. This requires no input since it uses the current location. Thus it can be launched directly without the need for any argument. 
 
 ## WorkFlow for Importing Python scripts from DropBox
 
