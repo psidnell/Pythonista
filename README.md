@@ -2,7 +2,7 @@
 
 Various iOS Pythonista Integrations I use.
 
-Some of these need to be launched with the WorkFlow app (https://workflow.is) via Action Extensions,
+Some of these need to be launched with the WorkFlow app via Action Extensions,
 so for example you can export a map pin to a WorkFlow extension and have it launch the correct
 Pythonista script with the pin data as an argument. Pythonista then processes that and can launch
 other apps in turn.
