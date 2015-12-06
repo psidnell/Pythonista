@@ -15,3 +15,10 @@ Useful links:
 ## WorkFlow for Importing python files from DropBox
 
 ![](DropboxToPythonista.png)
+
+## Workflow Action Extension for sending Apple Maps pins to Pythonista
+
+![](LocationToOmnifocus_1.png)
+
+![](LocationToOmnifocus_2.png)
+
