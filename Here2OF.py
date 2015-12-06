@@ -16,7 +16,9 @@ limitations under the License.
 '''
 Find the current location and build an OmniFocus note containing the address and
 links to that location in various mapping apps, TomTom, Apple Maps, Google Maps,
-Waze and Open Streetmap.  
+Waze and Open Streetmap.
+
+Easy to launch from the WorkFlow or Launch apps
 '''
 
 import location
