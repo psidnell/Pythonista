@@ -9,8 +9,11 @@ other apps in turn.
 
 Useful links:
 
-- Pythonista URL schemes: http://omz-software.com/pythonista/docs/ios/urlscheme.html
-- WorkFlow URL Schemes: https://workflow.is/developer
+- [Pythonista](http://omz-software.com/pythonista/) - a full iOS Python dev environment.
+- [WorkFlow](https://workflow.is) - an iOS automation utility.
+- [Working Copy](http://workingcopyapp.com) - an iOS git/GitHub client.
+- [Pythonista URL schemes](http://omz-software.com/pythonista/docs/ios/urlscheme.html).
+- [WorkFlow URL Schemes](https://workflow.is/developer).
 
 ## WorkFlow for Importing python files from DropBox
 
@@ -21,4 +24,3 @@ Useful links:
 ![](LocationToOmnifocus_1.png)
 
 ![](LocationToOmnifocus_2.png)
-
